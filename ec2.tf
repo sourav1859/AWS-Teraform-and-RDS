@@ -17,6 +17,6 @@ resource "aws_instance" "wordpress_ec2" {
   
 
   tags = {
-    Name = "WordPress EC2 Instance"
+    Name = "WordPress and RDS EC2 Instance"
   }
 }
