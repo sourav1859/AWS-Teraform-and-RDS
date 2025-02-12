@@ -19,7 +19,7 @@ variable "db_password" {
 
 
 variable "key_name" {
-  description = "My_AWS_key"
+  description = "CLD_AWS_KEY"
   type        = string
 }
 
