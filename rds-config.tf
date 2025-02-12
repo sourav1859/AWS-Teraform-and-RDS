@@ -1,6 +1,10 @@
 
 # RDS Database
 # Set up a MySQL RDS instance for WordPress.
+db_name     = "wordpressdb"
+db_username = "admin"
+db_password = "your-secure-password" # replaced password
+key_name    = "CLD_AWS_KEY"
 
 # DB Subnet Group
 resource "aws_db_subnet_group" "wordpress_db_subnet_group" {
